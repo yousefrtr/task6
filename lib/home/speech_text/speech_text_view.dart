@@ -75,7 +75,8 @@ class _SpeechTextState extends State<SpeechText> {
   }
 
   void _startListening() async {
-    await controller.speechToText.listen(onResult: _onSpeechResult);
+    await controller.speechToText
+        .listen(onResult: _onSpeechResult, localeId: "ar");
     setState(() {
       controller.confidenceLevel = 0;
     });
