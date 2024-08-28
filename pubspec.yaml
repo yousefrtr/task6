@@ -38,8 +38,7 @@ dependencies:
   speech_to_text: ^7.0.0
   get: ^4.6.6
   flutter_tts: ^4.0.2
-  galli_text_to_speech: ^0.0.1
-  arabic_roman_conv: ^0.1.0-dev.2
+
  
 
 dev_dependencies:
